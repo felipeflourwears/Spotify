@@ -11,6 +11,58 @@ npm run dev
 
 ```
 
+```bash
+npm i react-icons
+
+```
+
+```bash
+npm i tailwind-merge
+
+```
+
+
+# Search snippet to nfc
+```bash
+const Name = () =>{
+    return (
+        <div>
+
+        </div>
+    );
+}
+
+export default Name;
+
+```
+
+# Props
+```bash
+
+interface NameProps{
+    parameter1: IconType;
+    parameter2: string;
+    parameter3: boolean;
+    parameter4: string;
+}
+
+
+const Name: React.FC<NameProps> = ({
+    parameter1,
+    parameter2,
+    parameter3,
+    parameter4
+}) =>{
+    return (
+        <div>
+            
+        </div>
+    );
+}
+
+export default Name;
+
+```
 
 ## Getting Started
 
